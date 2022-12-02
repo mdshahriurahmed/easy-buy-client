@@ -1,0 +1,33 @@
+.site-max-width {
+    max-width: 1420px;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.buttonstyle {
+    font-size: 17px;
+    font-weight: 500;
+    padding: 12px 20px;
+    background-color: #67ad5c;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+.buttonstyle:hover {
+    border: 2px solid #67ad5c;
+    background: none;
+}
+
+@media screen and (max-width:870px) {
+    .buttonstyle {
+        font-size: 14px;
+        font-weight: 500;
+        padding: 10px 15px;
+        background-color: #67ad5c;
+        color: white;
+        border: none;
+        border-radius: 3px;
+    }
+}
